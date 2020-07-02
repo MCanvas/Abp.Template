@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Abp.Template.HttpApi</name>
+    </assembly>
+    <members>
+        <member name="M:Abp.Template.HttpApi.Controllers.HellowWorldController.HellowWorld">
+            <summary>
+            测试输出
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
