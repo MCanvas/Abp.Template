@@ -11,6 +11,6 @@ namespace Abp.Template.HttpApi
         )]
     public class HttpApiModule : AbpModule
     {
-
+         
     }
 }
