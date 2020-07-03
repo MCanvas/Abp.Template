@@ -4,11 +4,32 @@
         <name>Abp.Template.HttpApi</name>
     </assembly>
     <members>
+        <member name="T:Abp.Template.HttpApi.Controllers.HellowWorldController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Abp.Template.HttpApi.Controllers.HellowWorldController._1helloWorldService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Abp.Template.HttpApi.Controllers.HellowWorldController.#ctor(Abp.Template.Application.Contracts.Test.HelloWorld.IHelloWorldService)">
+            <summary>
+            
+            </summary>
+            <param name="helloWorldService"></param>
+        </member>
         <member name="M:Abp.Template.HttpApi.Controllers.HellowWorldController.HellowWorld">
             <summary>
             测试输出
             </summary>
             <returns></returns>
+        </member>
+        <member name="T:Abp.Template.HttpApi.HttpApiModule">
+            <summary>
+            
+            </summary>
         </member>
     </members>
 </doc>

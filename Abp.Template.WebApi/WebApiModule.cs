@@ -25,7 +25,7 @@ namespace Abp.Template.WebApi
     {
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
-            //移除自带的异常中间件
+            //移除框架自带的异常中间件
             Configure<MvcOptions>(options =>
             {
                 var filterMetadata = options.Filters.FirstOrDefault(x => x is ServiceFilterAttribute attribute && attribute.ServiceType.Equals(typeof(AbpExceptionFilter)));

@@ -6,7 +6,7 @@ using Volo.Abp.Application.Services;
 
 namespace Abp.Template.Application.Test.HelloWorld
 {
-    public class HelloWorldService : ApplicationService, IHelloWorldService
+    public class HelloWorldService : ApplicationServiceBase, IHelloWorldService
     {
         public string HelloWorld()
         {

@@ -4,6 +4,16 @@
         <name>Abp.Template.Application.Contracts</name>
     </assembly>
     <members>
+        <member name="T:Abp.Template.Application.Contracts.ApplicationContactsModule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Abp.Template.Application.Contracts.Test.HelloWorld.IHelloWorldService">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="M:Abp.Template.Application.Contracts.Test.HelloWorld.IHelloWorldService.HelloWorld">
             <summary>
             aa

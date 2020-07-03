@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Abp.Template.Application.Contracts.Test.HelloWorld
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public interface IHelloWorldService
     {
         /// <summary>

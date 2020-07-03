@@ -5,6 +5,9 @@ using Volo.Abp.Modularity;
 
 namespace Abp.Template.HttpApi
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [DependsOn(
         typeof(AbpAspNetCoreMvcModule),
         typeof(ApplicationContactsModule)
